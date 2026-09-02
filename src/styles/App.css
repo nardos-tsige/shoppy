@@ -1,0 +1,34 @@
+:root {
+  --primary: #00B894;
+  --primary-dark: #00997A;
+  --secondary: #FDCB6E;
+  --secondary-dark: #F0B840;
+  --background: #F8F9FA;
+  --card-bg: #FFFFFF;
+  --text-primary: #1A1A2E;
+  --text-secondary: #636E72;
+  --shadow: 0 4px 20px rgba(0, 184, 148, 0.1);
+  --shadow-hover: 0 8px 30px rgba(0, 184, 148, 0.2);
+  --gradient: linear-gradient(135deg, #00B894 0%, #FDCB6E 100%);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,52 @@
+.not-found {
+  text-align: center;
+  padding: 80px 20px;
+  animation: fadeInUp 0.6s ease;
+}
+
+.not-found-icon {
+  font-size: 80px;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.not-found h1 {
+  font-size: 100px;
+  font-weight: 900;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.not-found h2 {
+  font-size: 32px;
+  color: var(--text);
+  margin: 10px 0;
+}
+
+.not-found p {
+  color: var(--text-light);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.not-found .home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 36px;
+  background: var(--gold-gradient);
+  color: var(--black);
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+}
+
+.not-found .home-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.4);
+}

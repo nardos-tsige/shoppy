@@ -1,0 +1,45 @@
+.error-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.error-icon {
+  font-size: 60px;
+  color: #E74C3C;
+  margin-bottom: 20px;
+}
+
+.error-state h3 {
+  font-size: 24px;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.error-state p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.retry-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gradient);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.retry-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 184, 148, 0.4);
+}
