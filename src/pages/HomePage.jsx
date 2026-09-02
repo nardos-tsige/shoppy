@@ -111,9 +111,9 @@ export const HomePage = () => {
           {categories.map((category, index) => {
             const Icon = category.icon;
             return (
-              <Link key={index} to={'/shop?category=' + category.path} className="category-card card">
-                <div className="category-icon-wrapper" style={{ background: '#D4AF37' + '15' }}>
-                  <Icon className="category-icon" style={{ color: '#D4AF37' }} />
+              <Link key={index} to={"/shop?category=" + category.path} className="category-card card">
+                <div className="category-icon-wrapper" style={{ background: "#D4AF37" + "15" }}>
+                  <Icon className="category-icon" style={{ color: "#D4AF37" }} />
                 </div>
                 <h3>{category.name}</h3>
                 <span className="category-arrow"><FiArrowRight /></span>
@@ -140,7 +140,7 @@ export const HomePage = () => {
         ) : featuredProducts.length > 0 ? (
           <div className="product-grid">
             {featuredProducts.map((product, index) => (
-              <div key={product.id} style={{ animationDelay: (index * 0.1) + 's' }}>
+              <div key={product.id} style={{ animationDelay: (index * 0.1) + "s" }}>
                 <ProductCard product={product} />
               </div>
             ))}
